@@ -12,7 +12,7 @@ const version = "0.0.1"
 
 type Options struct {
 	BindAddr string `short:"b" long:"bindaddr" env:"ADDR" default:"" description:"Adress to listen on."`
-	Port     int    `short:"p" long:"port" env:"PORT" default:"8.8.8.8" description:"Port to listen on"`
+	Port     int    `short:"p" long:"port" env:"PORT" default:"8888" description:"Port to listen on"`
 	Version  bool   `short:"v" long:"version" default:"false" description:"Show version and exit"`
 }
 
